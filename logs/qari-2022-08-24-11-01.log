@@ -1,0 +1,26 @@
+[2022-08-24 11:01:53] qari.INFO: Loading modules\Login\Login.py
+[2022-08-24 11:01:53] qari.INFO: Performing the Negative Test Case #1
+[2022-08-24 11:01:53] qari.INFO: Login with Empty Fields
+[2022-08-24 11:01:58] qari.INFO: Email is Required.
+[2022-08-24 11:01:58] qari.INFO: Password is Required.
+[2022-08-24 11:01:58] qari.INFO: Negative Test Case #1 Performed Successfully
+[2022-08-24 11:01:58] qari.INFO: Performing the Negative Test Case #2
+[2022-08-24 11:01:58] qari.INFO: Submitting form by providing only Username 
+[2022-08-24 11:02:04] qari.INFO: Password is Required.
+[2022-08-24 11:02:04] qari.INFO: NegativeTest Case #2 Performed Successfully
+[2022-08-24 11:02:04] qari.INFO: Performing the Negative Test Case #3
+[2022-08-24 11:02:04] qari.INFO: Submitting form by providing only Password
+[2022-08-24 11:02:09] qari.INFO: Email is Required.
+[2022-08-24 11:02:09] qari.INFO: Negative Test Case #3 Performed Successfully
+[2022-08-24 11:02:09] qari.INFO: Performing the Negative Test Case #4
+[2022-08-24 11:02:09] qari.INFO: Proving Password in Username & Password in Password Field
+[2022-08-24 11:02:16] qari.INFO: Email must be a valid email address
+[2022-08-24 11:02:16] qari.INFO: Negative Test Case #4 Performed Successfully
+[2022-08-24 11:02:16] qari.INFO: Performing the Negative Test Case #5
+[2022-08-24 11:02:16] qari.INFO: Proving Username in Username & Username in Password Field
+[2022-08-24 11:02:22] qari.INFO: Performing the Positive Test Case #1
+[2022-08-24 11:02:22] qari.INFO: Proving Username in Username & Password in Password Field
+[2022-08-24 11:02:29] qari.SUCCESS: Module Execution Successful modules\Login\Login.py
+[2022-08-24 11:02:29] qari.LINE: __________________________________________________________________________________________
+[2022-08-24 11:02:29] qari.LINE: __________________________________________________________________________________________
+[2022-08-24 11:02:29] qari.INFO: Module Execute 1 & Fail 0

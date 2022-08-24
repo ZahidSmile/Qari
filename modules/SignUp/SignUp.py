@@ -13,6 +13,7 @@ class SignUp:
         # Assigning positional argument
         action = SignupPage(self.driver)
 
+        time.sleep(2)
         # performing click on Username Field
 
         action.username().click()

@@ -82,7 +82,7 @@ class Qari:
         try:
             time.sleep(1)
             self.driver.find_element(By.CSS_SELECTOR, 'div.Navigation div:nth-child(8)').click()
-            time.sleep(3)
+            time.sleep(5)
             self.driver.find_element(By.CSS_SELECTOR, 'div.Account.Teacher').click()
             # loading modules
             self.__loadModules()
