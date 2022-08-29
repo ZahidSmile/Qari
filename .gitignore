@@ -1,0 +1,8 @@
+# For folders
+modules/*
+logs
+.idea
+__pycache__
+
+# For files
+.env
