@@ -1,5 +1,5 @@
 # For folders
-modules/*
+modules/*/__pycache__
 logs
 .idea
 __pycache__
