@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class LoginPage:
+class ProfilePage:
     def __init__(self, driver):
         self.driver = driver
 
@@ -21,13 +21,25 @@ class LoginPage:
         return self.driver.find_element(By.CSS_SELECTOR, '.PackBox div.FieldBox:nth-child(4) img[alt="add"]')
 
     def subjects(self):
-        return self.driver.find_element(By.CSS_SELECTOR, '.PackBox div.FieldBox .multi_default ng-select')
+        return self.driver.find_element(By.CSS_SELECTOR, '.PackBox div.FieldBox .multi_default ng-select input')
 
-    def day_1(self):
-        return self.driver.find_element(By.CSS_SELECTOR, '#mat-slide-toggle-1')
+    def add_package(self):
+        return self.driver.find_element(By.CSS_SELECTOR, '.addpackage')
+
+    def remove_package(self):
+        return self.driver.find_element(By.CSS_SELECTOR, '.fa-trash')
+
+    def add_timing(self):
+        return self.driver.find_element(By.CSS_SELECTOR, '.DaySection .Add')
+
+    def remove_timing(self):
+        return self.driver.find_element(By.CSS_SELECTOR, '.Times .Delete .fa-trash-alt')
 
     def day_2(self):
         return self.driver.find_element(By.CSS_SELECTOR, '#mat-slide-toggle-2')
+
+    def day_7(self):
+        return self.driver.find_element(By.CSS_SELECTOR, '#mat-slide-toggle-7')
 
     def cls_duration(self):
         return self.driver.find_element(By.CSS_SELECTOR, '.ClassDuration [alt="add"]')
@@ -40,3 +52,6 @@ class LoginPage:
 
     def billing(self):
         return self.driver.find_element(By.CSS_SELECTOR, 'input[placeholder="Billing address"]')
+
+    def submit(self):
+        return self.driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]')
